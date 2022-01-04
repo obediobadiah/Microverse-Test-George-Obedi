@@ -147,9 +147,3 @@ footer{
     border-top: 2px solid rgb(139, 44, 44);
 }
 
-@media only screen and (max-width: 600px) {
-    .nav{
-        display: block;
-    }
-}
-
