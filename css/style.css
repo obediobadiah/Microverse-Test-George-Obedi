@@ -1,0 +1,155 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-white);
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(139, 44, 44);
+    box-shadow: 0 2px 0 rgb(0 0 0 40%);
+    z-index: 10;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+color: white;
+list-style-type: none;
+font-weight: bold;
+    margin-right: 2rem;
+}
+
+.nav-list li a{
+color: white;
+padding: 10px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.welcome-section h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.welcome-section p{
+    color: rgb(139, 44, 44);
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: rgb(101, 101, 224);
+}
+
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-tile {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    background: rgb(83, 83, 83);
+}
+
+.code {
+    color: gray;
+    transition: color 0.3s ease-out;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.btn-show-all {
+    font-size: 1rem;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(83, 83, 83);
+}
+
+.projects-section-header{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.contact-section{
+    color: white;
+    background-color: gray;
+    padding: 50px;
+}
+
+.contact-section-header h2{
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.contact-section-header p{
+    text-align: center;
+    font-style: italic;
+    margin: 0;
+}
+
+.contact-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+footer{
+    color: white;
+    background-color: gray;
+    padding: 10px;
+    border-top: 2px solid rgb(139, 44, 44);
+}
+
+@media only screen and (max-width: 600px) {
+    .nav{
+        display: block;
+    }
+}
+
