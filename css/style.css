@@ -35,6 +35,12 @@ text-decoration: none;
 font-weight: bold;
 }
 
+@media (max-width: 600px) {
+    welcome-section {
+      background-color: #a3eb87;
+    }
+}
+
 .welcome-section{
     display: flex;
     flex-direction: column;
@@ -147,3 +153,9 @@ footer{
     border-top: 2px solid rgb(139, 44, 44);
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
