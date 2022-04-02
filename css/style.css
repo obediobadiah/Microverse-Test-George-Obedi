@@ -14,7 +14,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgb(139, 44, 44);
+    background: rgb(124, 139, 29);
     box-shadow: 0 2px 0 rgb(0 0 0 40%);
     z-index: 10;
 }
@@ -37,7 +37,7 @@ font-weight: bold;
 
 @media (max-width: 600px) {
     welcome-section {
-      background-color: #a3eb87;
+      background-color: #7ebab5;
     }
 }
 
@@ -48,8 +48,7 @@ font-weight: bold;
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #000;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    background-color: #1d7c8b;
 }
 
 .welcome-section h1{
@@ -58,7 +57,7 @@ font-weight: bold;
 }
 
 .welcome-section p{
-    color: rgb(139, 44, 44);
+    color: white;
     font-style: italic;
     font-size: 2rem;
 }
@@ -116,7 +115,7 @@ font-weight: bold;
 
 .contact-section{
     color: white;
-    background-color: gray;
+    background-color: rgb(124, 139, 29);
     padding: 50px;
 }
 
@@ -148,14 +147,14 @@ font-weight: bold;
 
 footer{
     color: white;
-    background-color: gray;
+    background-color: rgb(124, 139, 29);
     padding: 10px;
     border-top: 2px solid rgb(139, 44, 44);
 }
 
-@media only screen and (max-width: 600px) {
+media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
-  }
+}
   

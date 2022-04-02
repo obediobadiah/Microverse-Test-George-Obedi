@@ -10,8 +10,17 @@
   <body>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+		
+	<style>
+	 @media only screen and (max-width: 600px) {
+		body {
+		  background-color: lightblue;
+		}
+	 }
+	  
+	 </style>
 
-  <nav id="navbar" class="nav">
+  <nav id="navbar" class="nav navbar-fixed-top">
   <ul class="nav-list">
     <li>
       <a href="#welcome-section">About</a>
@@ -25,15 +34,15 @@
   </ul>
 </nav>
     <section id="welcome-section" class="welcome-section">
-      <h1>Hey I am Mimic</h1>
-      <p>a web developer</p>
+      <h1>Hey I am George</h1>
+      <p>a software developer</p>
     </section>
 
     <section id="projects" class="projects-section">
   <h2 class="projects-section-header">These are some of my projects</h2>
 
   <div class="projects-grid">
-    <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project project-tile">
+    <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" media="screen and (max-width: 600px)" target="_blank" class="project project-tile">
       <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="project">
       <p class="project-title">
         Tribute Page
